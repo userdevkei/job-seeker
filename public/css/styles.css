@@ -1,0 +1,449 @@
+body{
+    background: snow !important;
+}
+.container-fluid{
+    border: 2px solid lightseagreen;
+    border-radius: 4px;
+    min-height: 80vh !important;
+}
+.top{
+    min-height: 5vh !important;
+    background: rgba(0, 0, 0, 0.9);
+    padding: 7px !important;
+}
+.top .top-link{
+    color: white;
+    text-decoration: none;
+    padding: 7px;
+    font-size: 16px;
+}
+.nav-top{
+    margin: auto;
+    width: 92vw;
+}
+.top-right{
+    float: right;
+}
+.top-left{
+    float: left !important;
+}
+.nav-bar{
+    margin: 0;
+    padding: 0;
+    background: lightseagreen;
+    min-height: 15vh !important;
+}
+
+.nav-container{
+    margin: auto;
+    width: 92vw;
+    background: lightseagreen;
+    height: 12vh;
+    padding-top: 20px !important;
+}
+
+.logo
+{
+    float: left !important;
+    color: white !important;
+    font-family: "Bauhaus 93" !important;
+    font-size: 18px !important;
+    color: white !important;
+}
+.logo .navbar-brands{
+    color: white !important;
+    text-decoration: none !important;
+}
+.navbar-links{
+    float: right !important;
+}
+.navbar-links ul li{
+    display: inline !important;
+}
+
+.navbar-links .nav-l
+{
+    color: white !important;
+    font-family: "Calibri Light";
+    font-weight: bold;
+    text-decoration: none !important;
+    font-size: 18px !important;
+    margin: 5px !important;
+    padding: 5px !important;
+}
+
+header{
+    overflow: hidden;
+    margin-top: -23px;
+    padding: 0;
+}
+.slider{
+    background-color: #c8cbcf !important;
+    margin: auto;
+    width: 100vw;
+    height: 82vh;
+}
+.img{
+    width: 100vw;
+    height: 100%;
+}
+.slider .img img{
+    width: 100% !important;
+    height: 100% !important;
+}
+
+.slider .text-ontop{
+    position: absolute !important;
+    margin: auto;
+    width: 100%;
+    height: 82vh;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+.slider .text-ontop .slider-text{
+    position: absolute;
+    top: 25% !important;
+    margin: 0 3% 0 3%;
+    width: 94%;
+}
+.slider .text-ontop .slider-tittle{
+    text-align: center;
+    color: white;
+    font-family: Verdana;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 2.0;
+}
+
+.slider .text-ontop .ontop-text{
+    font-family: "Bauhaus 93";
+    font-size: 35px;
+    color: white;
+    text-align: center;
+    line-height: 1.5;
+    top: 50%;
+}
+.slider-text-text{
+    font-size: 18px;
+    color: white;
+    text-align: center;
+    line-height: 3.0;
+}
+.read-more{
+    color: white;
+    background: lightseagreen;
+    position: relative !important;
+    left: 46%;
+    border: none !important;
+    font-size: 18px;
+    border-radius: 4px !important;
+    padding: 5px;
+    font-family: "Arial Narrow";
+    margin: 7px;
+}
+.jobs{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    height: 100vh;
+}
+
+.job-container{
+    margin: auto;
+    width: 97vw;
+    height: 100%;
+}
+.job-card{
+    margin: 7px auto;
+    width: 33% !important;
+    height: 26% !important;
+    background: lightseagreen !important;
+    display: inline-block;
+    padding: 20px;
+    border-radius: 6px;
+}
+.job-title{
+    font-size: 24px;
+    font-family: "Bauhaus 93";
+    color: white;
+}
+.job-preference{
+    font-size: 18px;
+    font-family: 'Nunito', sans-serif;
+    color: white;
+}
+.job-location{
+    font-size: 18px;
+    color: yellow;
+}
+.card-div{
+    margin: auto;
+    width: 100%;
+    padding: 7px;
+}
+.job-left{
+    float: left !important;
+    width: 70% !important;
+}
+.job-right{
+    float: right;
+    width: 29% !important;
+}
+.job-deadline{
+    color: firebrick;
+    font-size: 14px;
+}
+
+.job-duties{
+    color: white;
+    font-size: 16px;
+    font-family: "Times New Roman";
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+}
+
+.job-header{
+    margin: 7px auto;
+    text-align: center;
+    color: lightseagreen;
+    font-weight: bold;
+    font-size: 28px;
+    font-family: "Bauhaus 93";
+}
+
+.more-jobs{
+    float: right;
+    color: lightseagreen !important;
+    text-decoration: none;
+    font-size: 110%;
+}
+.about-us{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    overflow: hidden;
+}
+.about-img{
+    width: 100% !important;
+    height: 90vh;
+}
+.about-us .about-img img{
+    width: 100% !important;
+    max-height: 100%;
+}
+.about-img .about-img-text{
+    position: absolute;
+    width: 100%;
+    height: 90%;
+    background: rgba(0, 0, 0, 0.5);
+}
+.about-img-ontop-text{
+    margin: auto;
+    padding: 12px;
+    width: 88vw;
+}
+.about-img-p{
+    font-size: 28px;
+    font-family: "Times New Roman";
+    line-height: 2.0;
+    text-align: center;
+    color: white;
+}
+.about-img-p-header
+{
+    color: white;
+    font-family: "Bauhaus 93";
+    font-size: 28px;
+    font-weight: bold;
+    text-align: center;
+}
+.about-img-p-div{
+    margin-top: 12%;
+}
+.contact-support
+{
+    margin: 0;
+    padding: 0;
+    height: 80vh;
+}
+.divider
+{
+    margin: auto;
+    width: 90vw;
+}
+.support-form{
+    margin-top: 8%;
+    width: 50%;
+    float: right;
+}
+.phone{
+    margin-top: 8%;
+    float: left;
+    width: 50%;
+}
+.fa{
+    margin: auto;
+    font-size: 400%;
+    color: lightseagreen;
+    width: 10%;
+}
+.submit-btn{
+    border-radius: 3px;
+    background: lightseagreen;
+    border: none;
+    color: white;
+    font-size: 16px;
+    padding: 7px;
+}
+.submit-btn-sm{
+    border-radius: 3px;
+    background: lightseagreen;
+    border: none;
+    color: white;
+    font-size: 18px;
+    padding: 5px;
+}
+.fa-text{
+    font-size: 18px;
+    text-align: center;
+    line-height: 1.5;
+    font-weight: bold;
+}
+.footer-section{
+    background-color: rgba(0, 0, 0, 0.9) !important;
+    min-height: 10vh !important;
+}
+.footer{
+    color: lightseagreen !important;
+    text-align: center;
+}
+.card-header{
+    background: lightseagreen !important;
+    color: white !important;
+}
+.container-form{
+    margin: auto;
+    width: 80vw;
+}
+
+.container-info{
+    margin: auto;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+.container-info .info-card{
+    width: 24% !important;
+    min-height: 50vh !important;
+    background-color: rgba(32,178,170,0.8);
+    border-radius: 6px !important;
+    text-decoration: none !important;
+}
+
+.container-info .info-card .info-card-header{
+    color: white;
+    font-weight: bolder;
+    font-family: "Arial Narrow";
+    font-size: 20px;
+    margin: 7px !important;
+    padding: 7px !important;
+    text-align: center !important;
+}
+.container-info .info-card .total{
+    color: white;
+    font-weight: bolder;
+    font-size: 56px;
+    font-family: "Arial Rounded MT Bold";
+    text-align: center;
+}
+.container-info .info-card hr{
+    border: 2px solid yellow !important;
+}
+.container-info .info-card .info-card-percentage{
+    text-align: center;
+    color: yellow;
+    font-family: "Book Antiqua";
+    font-size: 28px !important;
+    font-weight: bold;
+}
+.container-info .info-card .info-card-percentage small{
+    font-size: small;
+    color: white;
+}
+.container-info .info-card .info-card-text{
+    color: white;
+    text-align: center;
+    margin: 7px auto !important;
+    font-family: "Times New Roman";
+    font-size: 18px !important;
+}
+
+.img-avatar{
+    max-height: 220px;
+    max-width: 220px;
+    border-radius: 50%;
+    background: lightseagreen;
+}
+.message-card{
+    margin: auto;
+    width: 94%;
+}
+.message{
+    margin: auto;
+    width: 30%;
+    float: left;
+    height: 80vh;
+}
+.show-message{
+    margin: auto;
+    width: 70%;
+    float: right;
+    height: 80vh;
+}
+.subject{
+    text-decoration: none !important;
+    color: lightseagreen;
+    font-size: 18px;
+}
+.sub-mess{
+    text-align: center;
+    font-size: 115%;
+    font-weight: bold;
+}
+.text-container{
+    margin: auto;
+    height: auto;
+    padding: 5px;
+    border: 1px solid lightseagreen;
+    border-radius: 7px;
+}
+.text{
+    margin: auto;
+    padding: 5px;
+    width: 94%;
+    min-height: 34vh;
+    border: 1px solid lightseagreen;
+    border-radius: 7px;
+}
+.text-row{
+    margin: 0 4% 0 4%;
+    width: 94%;
+    font-weight: bold;
+}
+text-row-1{
+    margin: 0 2% 0 2%;
+    width: 96%;
+    font-family: "Berlin Sans FB", sans-serif;
+    font-size: 120%;
+}
+.text-info-center{
+    margin: auto;
+    text-align: center;
+    font-family: "Berlin Sans FB", sans-serif;
+    font-size: 120%;
+    color: lightseagreen;
+}
